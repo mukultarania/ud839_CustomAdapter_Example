@@ -83,7 +83,7 @@ public class AndroidFlavorAdapter extends ArrayAdapter<AndroidFlavor> {
         numberTextView.setText(currentAndroidFlavor.getVersionNumber());
 
         // Find the ImageView in the list_item.xml layout with the ID list_item_icon
-        ImageView iconView = (ImageView) listItemView.findViewById(R.id.list_item_icon);
+        ImageView iconView = (ImageView) listItemView.findViewById(R.id.gg);
         // Get the image resource ID from the current AndroidFlavor object and
         // set the image to iconView
         iconView.setImageResource(currentAndroidFlavor.getImageResourceId());
